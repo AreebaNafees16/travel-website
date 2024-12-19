@@ -49,7 +49,7 @@ export default function Travel() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-700">
-                    Let's Go
+                    Let&lsquo;s Go
                   </h3>
                   <p className="text-gray-500 text-sm">
                     Start your journey with confidence and excitement.

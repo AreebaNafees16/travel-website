@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 
 export default function Contact() {

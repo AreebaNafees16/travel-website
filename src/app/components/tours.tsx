@@ -79,9 +79,11 @@ export default function Tours() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 my-12">
         {destinations.map((destination, index) => (
           <div key={index}>
-            <img
+            <Image
               src={destination.image}
               alt={destination.title}
+              width={400}
+              height={400}
               className="w-full h-64 object-cover mb-4 transition transform hover:scale-95 origin-bottom duration-300"
             />
             <div className="flex justify-between items-center">
