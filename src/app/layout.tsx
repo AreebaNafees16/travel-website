@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import { Inter, Cormorant } from "next/font/google";
 import "./globals.css";
 import { Navigation } from "./components/navigation";
-import { Torus } from "lucide-react";
-import  Tours   from "./components/tours";
 import Footer from "./components/footer";
 
 const inter = Inter({ subsets: ["latin"]});
@@ -14,12 +12,6 @@ const headingFont = Cormorant({
   weight: ["400", "600", "700"],
 });
 
-
-// const geistMono = localFont({
-//   src: "./fonts/GeistMonoVF.woff",
-//   variable: "--font-geist-mono",
-//   weight: "400, 600, 700",
-// });
 
 export const metadata: Metadata = {
   title: "Create Next App",

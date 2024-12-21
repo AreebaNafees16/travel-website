@@ -50,7 +50,7 @@ export default function Testimonial() {
               <p className="text-teal-500">{testimonial.location}</p>
 
               <p className="text-gray-600 text-center">
-                "{testimonial.feedback}"
+                {testimonial.feedback}
               </p>
             </div>
           ))}

@@ -23,8 +23,8 @@ export default function About() {
           <h2 className="text-3xl font-bold text-teal-500 text-center">Who We Are</h2>
           <p className="text-gray-600 mt-4 text-center leading-relaxed">
             Welcome to Travel and Tour! We specialize in creating unforgettable travel
-            experiences. Whether you're looking to explore exotic destinations or relax in scenic
-            retreats, we're here to make it happen.
+            experiences. Whether you&apos;re looking to explore exotic destinations or relax in scenic
+            retreats we&apos;re here to make it happen.
           </p>
         </div>
       </section>
@@ -119,7 +119,7 @@ export default function About() {
       <section className="py-10 px-4 md:px-12 lg:px-20 bg-gray-100 text-gray-800 text-center">
         <h2 className="text-3xl font-bold">Ready to Explore?</h2>
         <p className="mt-4 leading-relaxed">
-          Let us help you plan your dream vacation today. Whether it's a solo trip, a family getaway,
+          Let us help you plan your dream vacation today. Whether it&apos;s a solo trip, a family getaway,
           or a group adventure, we’ve got you covered!
         </p>
         <Link href="http:/contact">

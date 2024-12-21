@@ -60,12 +60,13 @@ export default function Travel() {
           </div>
 
           {/* Right Side */}
-          <div className="md:w-1/2">
+          <div className="md:w-2/2">
             <Image
               src="/Illustration.png"
               alt="Travel and Tour"
-              width={600}
-              height={600}
+              width={700}
+              height={700}
+              className="md:ml-40"
             />
           </div>
         </div>

@@ -31,28 +31,28 @@ export default function Contact() {
               <div>
                 <label
                   htmlFor="name"
-                  className="block text-sm font-medium text-gray-700"
+                  className="block text-sm font-medium text-gray-700 ml-2"
                 >
                   Full Name
                 </label>
                 <input
                   type="text"
                   id="name"
-                  className="mt-1 block w-full border border-gray-300 rounded-lg shadow-sm focus:ring-teal-500 focus:border-teal-500 sm:text-sm"
+                  className="p-2 mt-1 block w-full h-[50px] border border-gray-300 rounded-lg shadow-sm focus:ring-teal-500 focus:border-teal-500 sm:text-sm"
                   placeholder="Enter your name"
                 />
               </div>
               <div>
                 <label
                   htmlFor="email"
-                  className="block text-sm font-medium text-gray-700"
+                  className="block text-sm font-medium text-gray-700 ml-2"
                 >
                   Email Address
                 </label>
                 <input
                   type="email"
                   id="email"
-                  className="mt-1 block w-full border border-gray-300 rounded-lg shadow-sm focus:ring-teal-500 focus:border-teal-500 sm:text-sm"
+                  className="p-2 mt-1 block w-full h-[50px] border border-gray-300 rounded-lg shadow-sm focus:ring-teal-500 focus:border-teal-500 sm:text-sm"
                   placeholder="Enter your email"
                 />
               </div>
@@ -60,28 +60,28 @@ export default function Contact() {
             <div>
               <label
                 htmlFor="subject"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-sm font-medium text-gray-700 ml-2"
               >
                 Subject
               </label>
               <input
                 type="text"
                 id="subject"
-                className="mt-1 block w-full border border-gray-300 rounded-lg shadow-sm focus:ring-teal-500 focus:border-teal-500 sm:text-sm"
+                className="p-2 mt-1 block w-full h-[50px] border border-gray-300 rounded-lg shadow-sm focus:ring-teal-500 focus:border-teal-500 sm:text-sm"
                 placeholder="Enter the subject"
               />
             </div>
             <div>
               <label
                 htmlFor="message"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-sm font-medium text-gray-700 ml-2"
               >
                 Message
               </label>
               <textarea
                 id="message"
                 rows={5}
-                className="mt-1 block w-full border border-gray-300 rounded-lg shadow-sm focus:ring-teal-500 focus:border-teal-500 sm:text-sm"
+                className="p-2 mt-1 block w-full border border-gray-300 rounded-lg shadow-sm focus:ring-teal-500 focus:border-teal-500 sm:text-sm"
                 placeholder="Write your message"
               ></textarea>
             </div>

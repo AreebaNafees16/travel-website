@@ -61,8 +61,8 @@ export default function Services() {
                     What We Offer
                 </h2>
                 <p className="text-gray-600 text-center mt-4 max-w-3xl mx-auto">
-                    Whether you're planning a family vacation, a solo adventure, or a
-                    romantic getaway, we have the right services to make your trip
+                    Whether you&apos;re planning a family vacation a solo adventure or a
+                    romantic getaway we have the right services to make your trip
                     unforgettable.
                 </p>
 
