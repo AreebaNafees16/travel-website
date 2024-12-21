@@ -2,7 +2,7 @@ import { Search } from "lucide-react";
 
 export function SearchForm() {
   return (
-    <form className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 items-end bg-white p-6 shadow-lg rounded-md">
+    <form className="max-w-[1440px] mx-auto grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 items-end bg-white p-6 shadow-lg rounded-md">
       {/* Search Input */}
       <div className="flex flex-col gap-2">
         <label htmlFor="search" className="text-sm font-medium text-gray-600">
@@ -75,3 +75,4 @@ export function SearchForm() {
     </form>
   );
 }
+

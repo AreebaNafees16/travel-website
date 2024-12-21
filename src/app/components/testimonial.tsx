@@ -25,7 +25,7 @@ const testimonials = [
 
 export default function Testimonial() {
   return (
-    <main className="min-h-screen py-12">
+    <main className="h-full py-12 mb-14">
       <section className="container mx-auto px-6 md:px-12 lg:px-24">
         <h1 className="text-4xl font-bold text-center mb-12 text-teal-500">
           What Our Clients Say

@@ -7,9 +7,3 @@ html, body {
   width: 100%;
 }
 
-.bg-img {
-  object-fit: cover;
-  z-index: -5;
-}
-
-

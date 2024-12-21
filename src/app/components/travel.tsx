@@ -4,7 +4,7 @@ import { FaGlobe, FaCalendarAlt, FaPlaneDeparture } from 'react-icons/fa';
 export default function Travel() {
   return (
     <main className=" bg-white flex items-center justify-center">
-      <section className="container mx-auto px-6 md:px-12 lg:px-24">
+      <section className="container mx-auto px-4 md:px-16">
         <div className="flex flex-col md:flex-row items-center gap-8 p-8 bg-white">
           {/* Left Side */}
           <div className="md:w-1/2 space-y-6">
@@ -66,7 +66,7 @@ export default function Travel() {
               alt="Travel and Tour"
               width={700}
               height={700}
-              className="md:ml-40"
+              className="md:ml-36"
             />
           </div>
         </div>

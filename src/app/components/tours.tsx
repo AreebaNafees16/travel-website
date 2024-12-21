@@ -73,7 +73,7 @@ export default function Tours() {
   ];
 
   return (
-    <div className="container mx-auto py-12 px-4">
+    <div className="container mx-auto py-12 md:px-16 px-4">
       <h1 className="text-4xl font-bold text-center mb-12 text-teal-500">Our Featured Tours</h1>
       <p className="text-center max-w-4xl mx-auto font-medium text-gray-600 mt-2">Explore our top destinations voted by more than 100,000+ customers around the world</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 my-12">

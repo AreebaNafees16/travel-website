@@ -33,11 +33,11 @@ export function Navigation() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 w-full z-50  transition-all duration-300 ${
         isScrolled ? "bg-white shadow-md" : "bg-transparent"
       }`}
     >
-      <div className="container mx-auto px-4 lg:px-2 flex justify-between items-center py-4">
+      <div className="container mx-auto px-4 lg:px-16 flex justify-between items-center py-6">
         {/* Logo */}
         <div className="flex items-center">
           <Image
