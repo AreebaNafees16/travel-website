@@ -52,7 +52,7 @@ export default function Services() {
             <section className="py-16 px-4 md:px-12 lg:px-20">
                 <h2 className="text-3xl font-bold text-teal-500 text-center">What We Offer</h2>
                 <p className="text-gray-600 text-center mt-4 max-w-3xl mx-auto">
-                    Whether you're planning a family vacation, a solo adventure, or a romantic getaway, 
+                    Whether you&apos;re planning a family vacation, a solo adventure, or a romantic getaway, 
                     we have the right services to make your trip unforgettable.
                 </p>
 
