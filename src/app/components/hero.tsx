@@ -4,7 +4,7 @@ import { Container } from "./container";
 
 export function Hero() {
   return (
-    <Container className="w-full md:h-[900px] h-[1000px] grid grid-cols-1 md:grid-cols-1 items-center pt-44">
+    <Container className="w-full md:h-[800px] h-[900px] grid grid-cols-1 md:grid-cols-1 items-center pt-44">
       {/* Left Content */}
       
       <div className="relative z-10 md:mt-24">
